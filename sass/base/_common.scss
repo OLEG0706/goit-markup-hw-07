@@ -1,0 +1,97 @@
+.hero{
+            
+   max-width: 1600px;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-color: var(--secondary-background-color);
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../img2/body/body.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+     
+        & .container{
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1600px;
+    height: 600px;
+    background-color: var(--secondary-background-color);
+    text-align: center;
+    justify-content: center;
+        }
+
+        &-title{
+            font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-transform: uppercase;
+    color: #ffffff;
+    min-width: 696px;
+    min-height: 120px;
+    letter-spacing: 0.06em;
+            }
+
+     &-button{
+     display: flex;
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    padding: 10px 32px;
+    margin-top: 30px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: var(--tertiary-text-color);
+    background-color: var(--accent-color);
+
+    &:hover, &:focus {
+    background: #188ce8;
+   
+    border-radius: 4px;
+  }
+    
+}
+
+.about{
+        
+         .about-list{
+        display: flex;
+        padding-left: 0px;
+    }
+
+    &__icon {
+    width: 70px;
+    height: 70px;
+    }
+
+    &__icon__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--tertiary-background-color);
+    border-radius: 4px;
+   }
+
+    &__title{
+        font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    width: 270px;
+    height: 75px;
+    }
+
+}
